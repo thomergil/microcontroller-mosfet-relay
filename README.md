@@ -4,7 +4,7 @@ Since this took me way too long to figure out (multiple times...), here's a remi
 
 ### Executive summary
 
-With an N-Channel MOSFET (e.g., IRLB8721 or IRLZ44N), assuming the right-most pin (S) is connected to ground, then **D-S (the middle and rightmost pin) will act like a wire when a 3.3V or 5V voltage is applied to G (the left-most pin).** Additional resistors are required; see below.
+With an N-Channel MOSFET (e.g., IRLB8721 or IRLZ44N), assuming the rightmost pin (S) is connected to ground, then **D-S (the middle and rightmost pin) will act like a wire when a 3.3V or 5V voltage is applied to G (the left-most pin).** Additional resistors are required; see below.
 
 ### Use an N-Channel MOSFAT with your microcontroller
 
