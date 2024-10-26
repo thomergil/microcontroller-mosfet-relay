@@ -30,6 +30,6 @@ Assuming the Raspberry Pi (RPi) is correctly wired to 5V and ground,
 * Relay's V pin connects to one of RPi's 5V pins, possibly through a shared voltage wire/bus.
 * Relay's S pin connects to one of RPi's 5V pins, possibly through a shared voltage wire/bus.
 * Relay's G pin connects to the MOSFET Drain (D, middle pin); **this is what controls the relay**.
-* To protect the relay connect a flyback diode (e.g., 1N4007) with the cathode (marked side) to the S pin and the other (anode) side to the G pin (the one that connects to the drain on the MOSFET).
+* To protect the relay, connect a flyback diode (e.g., 1N4007) with the cathode (marked side) to the S pin and the other (anode) side to the G pin (the one that connects to the drain on the MOSFET).
 * The MOSFET is wired as described above.
 
